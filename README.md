@@ -8,11 +8,9 @@
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
 <h1 align="center"><b><font color="red">𝐓ᴇᴀᴍ ʀᴏɴᴀᴋ 𝐁ᴏᴛs</font></b></h1>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
 
 <p align="center"><a href="https://t.me/ronakgupta321"><img src="https://files.catbox.moe/b2mohj.jpg" width="400"></a></p>
 
