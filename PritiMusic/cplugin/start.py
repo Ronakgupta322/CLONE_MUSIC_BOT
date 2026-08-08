@@ -169,7 +169,7 @@ def get_random_start_image():
         if isinstance(START_IMG_URL, list):
             return random.choice(START_IMG_URL)
         return START_IMG_URL
-    return "https://graph.org/file/f464ff7c9a134295011ff-f58e0c87cd8bf16b25.jpg"
+    return "https://telegra.ph/file/2e3d368e77c449c287430.jpg"
 
 def format_link(val):
     if not val:
@@ -604,10 +604,10 @@ async def set_start_effect_cmd(client, message):
     EFFECT_MAP = {
         "🔥": "5104841245755180586",
         "👍": "5107584321108051014",
-        "💘": "5104858069142078462",
+        "👎": "5104858069142078462",
         "❤️": "5044134455711629726",
         "🎉": "5046509860389126442",
-        "❤️‍🔥": "5046589136895476101"
+        "💩": "5046589136895476101"
     }
     
     arg = message.command[1]
