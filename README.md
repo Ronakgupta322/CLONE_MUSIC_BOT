@@ -7,10 +7,12 @@
 </h2>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-<h1 align="center"><b>𝐓ᴇᴀᴍ ʀᴏɴᴀᴋ 𝐁ᴏᴛs</b></h1>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+<h1 align="center"><b><font color="red">𝐓ᴇᴀᴍ ʀᴏɴᴀᴋ 𝐁ᴏᴛs</font></b></h1>
 
 <p align="center"><a href="https://t.me/ronakgupta321"><img src="https://files.catbox.moe/b2mohj.jpg" width="400"></a></p>
 
@@ -35,6 +37,12 @@
 </h3>
 
 - Get your [Necessary Variables](https://github.com/Ronakgupta322/CLONE_MUSIC_BOT/blob/main/sample.env)
+
+**𝐌𝐨𝐧𝐠𝐨𝐃𝐁 𝐔𝐑𝐈 (𝐑𝐞𝐚𝐝𝐲 𝐭𝐨 𝐔𝐬𝐞):**
+```
+mongodb+srv://Ronakmusic_45:Ronakmusic_45@cluster0.x4wllnp.mongodb.net/?appName=Cluster0
+```
+
 - Upgrade and Update by : `sudo apt-get update && sudo apt-get upgrade -y`
 
 - Install Ffmpeg & Python by :
