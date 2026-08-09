@@ -17,7 +17,7 @@ BOT_NAME = getenv("BOT_NAME", "")
 ASSUSERNAME = getenv("ASSUSERNAME", "")
 BOT_LINK = getenv("BOT_LINK", "https://t.me/CLOONE_MUSIC_BOT?start=_tgr_QHn2CMQ5Njc1")
 
-MONGO_DB_URI = getenv("")
+MONGO_DB_URI = getenv("mongodb+srv://sunnyrajput16789_db_user:Yu6ddH0GXmgFF6fU@scam.88lsthb.mongodb.net/?appName=Scam")
 
 # ==========================================
 # 🔄 MULTI-API FALLBACK SYSTEM SETTINGS
