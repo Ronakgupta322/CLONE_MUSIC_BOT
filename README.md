@@ -36,10 +36,26 @@
 
 - Get your [Necessary Variables](https://github.com/Ronakgupta322/CLONE_MUSIC_BOT/blob/main/sample.env)
 
-**𝐌𝐨𝐧𝐠𝐨𝐃𝐁 𝐔𝐑𝐈 (𝐑𝐞𝐚𝐝𝐲 𝐭𝐨 𝐔𝐬𝐞):**
-```
-mongodb+srv://Ronakmusic_45:Ronakmusic_45@cluster0.x4wllnp.mongodb.net/?appName=Cluster0
-```
+### ⚠️ MongoDB URI — Apna Khud Ka Banao (Zaroori)
+
+Har user ko apna **khud ka free MongoDB Atlas URI** use karna hoga. Shared/public URI use karne se `MongoDB not found` ya connection errors aate hain, isliye koi bhi ready-made URI is repo mein nahi diya gaya hai.
+
+**Free MongoDB URI kaise banayein (5 minute mein):**
+
+1. [MongoDB Atlas](https://www.mongodb.com/cloud/atlas/register) pe free account banao
+2. **Create a new Cluster** → Free tier (M0) select karo → cluster create karo
+3. Left menu se **Database Access** → **Add New Database User** → username/password set karo (password yaad rakho)
+4. Left menu se **Network Access** → **Add IP Address** → **Allow Access From Anywhere** (`0.0.0.0/0`) select karo
+   - Ye zaroori hai kyunki Heroku dynos ka IP fixed nahi hota — agar ye step skip kiya to hosting pe Mongo connect nahi hoga
+5. **Database** → apne cluster pe **Connect** → **Drivers** → connection string copy karo, kuch aisa dikhega:
+   ```
+   mongodb+srv://<username>:<password>@cluster0.xxxxx.mongodb.net/?retryWrites=true&w=majority
+   ```
+6. `<username>` aur `<password>` ki jagah apna banaya hua username/password daalo
+   - Agar password mein `@`, `#`, `%`, `/` jaise special characters hain to unhe [URL-encode](https://www.urlencoder.org/) karo, warna connection string kaam nahi karegi
+7. Ye final string apne `.env` (ya Heroku Config Vars) mein `MONGO_DB_URI` ke aage paste kar do
+
+Isse jo bhi is repo se apna bot host karega, usko koi Mongo conflict ya "not found" error nahi aayega, kyunki har user ka apna alag database rahega.
 
 - Upgrade and Update by : `sudo apt-get update && sudo apt-get upgrade -y`
 
